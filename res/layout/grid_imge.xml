@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mian"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+    <ImageView
+        android:id="@+id/imge1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/susliks0" />
+
+    <ImageView
+        android:id="@+id/imge2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@id/imge1"
+        android:background="@drawable/susliks0" />
+
+    <ImageView
+        android:id="@+id/imge3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@id/imge2"
+        android:background="@drawable/susliks0" />
+
+    <ImageView
+        android:id="@+id/imge4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imge1"
+        android:background="@drawable/susliks0" />
+
+    <ImageView
+        android:id="@+id/imge5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imge1"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@id/imge4"
+        android:background="@drawable/susliks0" />
+
+    <ImageView
+        android:id="@+id/imge6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imge1"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@id/imge5"
+        android:background="@drawable/susliks0" />
+
+    <ImageView
+        android:id="@+id/imge7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imge4"
+        android:background="@drawable/susliks0" />
+
+    <ImageView
+        android:id="@+id/imge8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imge4"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@id/imge7"
+        android:background="@drawable/susliks0" />
+
+    <ImageView
+        android:id="@+id/imge9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imge4"
+        android:layout_marginLeft="30dip"
+        android:layout_toRightOf="@id/imge8"
+        android:background="@drawable/susliks0" />
+
+</RelativeLayout>

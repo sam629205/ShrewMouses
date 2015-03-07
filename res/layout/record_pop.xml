@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/record_bg"
+    android:orientation="vertical" >
+    <TextView 
+        android:id="@+id/tv_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#e76f04"
+        android:textSize="16sp"
+        android:layout_margin="35dp"
+        android:text=""/>
+	<Button 
+	    android:id="@+id/btn_ok"
+	    android:background="@drawable/record_ok"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="center_horizontal"/>
+</LinearLayout>
